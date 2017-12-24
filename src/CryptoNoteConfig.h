@@ -16,8 +16,9 @@ namespace CryptoNote {
 		const size_t   CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW          = 60;
 		const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
 		const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
-		const uint64_t MONEY_SUPPLY                                  = 100000000;
-		const unsigned EMISSION_SPEED_FACTOR                         = 21;
+		const uint64_t MONEY_SUPPLY                                  = ((uint64_t)(-1));
+		const unsigned EMISSION_SPEED_FACTOR                         = (23);
+		const uint64_t DIFFICULTY_TARGET                             = 20;
 		static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 		const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 		const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 20000;
@@ -25,7 +26,6 @@ namespace CryptoNote {
 		const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
 		const uint64_t MINIMUM_FEE                                   = 100000;
 		const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
-		const uint64_t DIFFICULTY_TARGET                             = 90;
 		const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
 		const size_t   DIFFICULTY_WINDOW                             = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;
 		const size_t   DIFFICULTY_CUT                                = 60;
