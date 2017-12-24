@@ -51,7 +51,7 @@ namespace CryptoNote {
 		const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 	}
 	const char     CRYPTONOTE_NAME[]                             = "coinstack";
-	const char GENESIS_COINBASE_TX_HEX[]                         = "013c01ff00012f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121011528fb465587493083978c4408d3e69286d965809dd2db421c525e3c682840c9";
+	const char GENESIS_COINBASE_TX_HEX[]                         = "013c01ff0001ffffffffff3f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b12bd50b400208f4d95a02fe8f58a753265bd654e7fc910b2d1088e0a80ef9fb";
 	const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 	const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
 	const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
